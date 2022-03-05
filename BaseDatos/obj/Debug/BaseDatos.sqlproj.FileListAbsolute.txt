@@ -8,3 +8,13 @@ C:\Users\cca\Desktop\Examen1Derek\BaseDatos\obj\Debug\BaseDatos.dll
 C:\Users\cca\Desktop\Examen1Derek\BaseDatos\obj\Debug\BaseDatos.pdb
 C:\Users\cca\Desktop\Examen1Derek\BaseDatos\bin\Debug\BaseDatos.dll
 C:\Users\cca\Desktop\Examen1Derek\BaseDatos\bin\Debug\BaseDatos.pdb
+C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BaseDatos\bin\Debug\BaseDatos.dacpac
+C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BaseDatos\bin\Debug\BaseDatos.dll
+C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BaseDatos\bin\Debug\BaseDatos.pdb
+C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BaseDatos\obj\Debug\BaseDatos.sqlproj.AssemblyReference.cache
+C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BaseDatos\obj\Debug\Model.xml
+C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BaseDatos\obj\Debug\refactor.xml
+C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BaseDatos\obj\Debug\postdeploy.sql
+C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BaseDatos\obj\Debug\predeploy.sql
+C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BaseDatos\obj\Debug\BaseDatos.dll
+C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BaseDatos\obj\Debug\BaseDatos.pdb

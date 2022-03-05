@@ -1,0 +1,19 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Institucion] (Table)
+       [dbo].[Instituto_Delete] (Procedure)
+       [dbo].[Instituto_Get] (Procedure)
+       [dbo].[Instituto_Insert] (Procedure)
+       [dbo].[Instituto_Update] (Procedure)
+
+** Supporting actions

@@ -12,7 +12,7 @@
 		</CustomData>
 		<CustomData Category="Reference" Type="Assembly">
 			<Metadata Name="LogicalName" Value="BaseDatos.dll" />
-			<Metadata Name="FileName" Value="C:\USERS\CCA\DESKTOP\EXAMEN1DEREK\BASEDATOS\OBJ\DEBUG\BASEDATOS.DLL" />
+			<Metadata Name="FileName" Value="C:\USERS\USUSARIO\PICTURES\PROGRA 6 DEREK\EXAMEN1\EXAMEN1DEREK\BASEDATOS\OBJ\DEBUG\BASEDATOS.DLL" />
 			<Metadata Name="AssemblyName" Value="BaseDatos" />
 			<Metadata Name="PermissionSet" Value="SAFE" />
 			<Metadata Name="Owner" Value="" />
@@ -20,7 +20,7 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="C:\Users\cca\Desktop\Examen1Derek\BaseDatos\obj\Debug\BaseDatos.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BaseDatos\obj\Debug\BaseDatos.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
 	</Header>
@@ -442,7 +442,7 @@ END]]></Value>
        Telefono=@Telefono,
        Estado=@Estado
        WHERE 
-           Id_Institucion=@Id_Departamento
+           Id_Institucion=@Id_Institucion
 
        COMMIT TRANSACTION TRASA
 
@@ -491,12 +491,12 @@ END]]></Value>
 					<References Name="[dbo].[Institucion].[Id_Institucion]" />
 				</Entry>
 				<Entry>
-					<References Name="[dbo].[Instituto_Update].[@Id_Departamento]" />
+					<References Name="[dbo].[Instituto_Update].[@Id_Institucion]" />
 				</Entry>
 			</Relationship>
 			<Relationship Name="Parameters">
 				<Entry>
-					<Element Type="SqlSubroutineParameter" Name="[dbo].[Instituto_Update].[@Id_Departamento]">
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[Instituto_Update].[@Id_Institucion]">
 						<Relationship Name="Type">
 							<Entry>
 								<Element Type="SqlTypeSpecifier">
@@ -580,10 +580,10 @@ END]]></Value>
 				</Entry>
 			</Relationship>
 			<Annotation Type="SysCommentsObjectAnnotation">
-				<Property Name="Length" Value="729" />
+				<Property Name="Length" Value="727" />
 				<Property Name="StartLine" Value="1" />
 				<Property Name="StartColumn" Value="1" />
-				<Property Name="HeaderContents" Value="create PROCEDURE [dbo].[Instituto_Update]&#xD;&#xA;@Id_Departamento int,&#xD;&#xA;@Codigo VARCHAR(250),&#xD;&#xA;@Nombre  VARCHAR(250),&#xD;&#xA;@Telefono  VARCHAR(250),&#xD;&#xA;@Estado BIT&#xD;&#xA;&#xD;&#xA;AS" />
+				<Property Name="HeaderContents" Value="create PROCEDURE [dbo].[Instituto_Update]&#xD;&#xA;@Id_Institucion int,&#xD;&#xA;@Codigo VARCHAR(250),&#xD;&#xA;@Nombre  VARCHAR(250),&#xD;&#xA;@Telefono  VARCHAR(250),&#xD;&#xA;@Estado BIT&#xD;&#xA;&#xD;&#xA;AS" />
 			</Annotation>
 		</Element>
 		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_Institucion]">

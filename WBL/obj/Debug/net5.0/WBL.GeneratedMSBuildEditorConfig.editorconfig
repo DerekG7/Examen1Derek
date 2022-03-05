@@ -6,3 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = WBL
+build_property.ProjectDir = C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\WBL\

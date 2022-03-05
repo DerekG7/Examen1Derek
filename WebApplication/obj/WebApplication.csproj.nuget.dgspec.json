@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cca\\Desktop\\Examen1Derek\\WebApplication\\WebApplication.csproj": {}
+    "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\WebApplication\\WebApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cca\\Desktop\\Examen1Derek\\BD\\BD.csproj": {
+    "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\BD\\BD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cca\\Desktop\\Examen1Derek\\BD\\BD.csproj",
+        "projectUniqueName": "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\BD\\BD.csproj",
         "projectName": "BD",
-        "projectPath": "C:\\Users\\cca\\Desktop\\Examen1Derek\\BD\\BD.csproj",
-        "packagesPath": "C:\\Users\\cca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cca\\Desktop\\Examen1Derek\\BD\\obj\\",
+        "projectPath": "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\BD\\BD.csproj",
+        "packagesPath": "C:\\Users\\Ususario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\BD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\cca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ususario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\cca\\Desktop\\Examen1Derek\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\cca\\Desktop\\Examen1Derek\\Entity\\Entity.csproj"
+              "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\Entity\\Entity.csproj"
               }
             }
           }
@@ -81,25 +80,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\cca\\Desktop\\Examen1Derek\\Entity\\Entity.csproj": {
+    "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cca\\Desktop\\Examen1Derek\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\cca\\Desktop\\Examen1Derek\\Entity\\Entity.csproj",
-        "packagesPath": "C:\\Users\\cca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cca\\Desktop\\Examen1Derek\\Entity\\obj\\",
+        "projectPath": "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\Ususario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\cca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ususario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -140,25 +138,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\cca\\Desktop\\Examen1Derek\\WBL\\WBL.csproj": {
+    "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\WBL\\WBL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cca\\Desktop\\Examen1Derek\\WBL\\WBL.csproj",
+        "projectUniqueName": "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\WBL\\WBL.csproj",
         "projectName": "WBL",
-        "projectPath": "C:\\Users\\cca\\Desktop\\Examen1Derek\\WBL\\WBL.csproj",
-        "packagesPath": "C:\\Users\\cca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cca\\Desktop\\Examen1Derek\\WBL\\obj\\",
+        "projectPath": "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\WBL\\WBL.csproj",
+        "packagesPath": "C:\\Users\\Ususario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\WBL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\cca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ususario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -173,11 +170,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\cca\\Desktop\\Examen1Derek\\BD\\BD.csproj": {
-                "projectPath": "C:\\Users\\cca\\Desktop\\Examen1Derek\\BD\\BD.csproj"
+              "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\BD\\BD.csproj": {
+                "projectPath": "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\BD\\BD.csproj"
               },
-              "C:\\Users\\cca\\Desktop\\Examen1Derek\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\cca\\Desktop\\Examen1Derek\\Entity\\Entity.csproj"
+              "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\Entity\\Entity.csproj"
               }
             }
           }
@@ -206,25 +203,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\cca\\Desktop\\Examen1Derek\\WebApplication\\WebApplication.csproj": {
+    "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\WebApplication\\WebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cca\\Desktop\\Examen1Derek\\WebApplication\\WebApplication.csproj",
+        "projectUniqueName": "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\WebApplication\\WebApplication.csproj",
         "projectName": "WebApplication",
-        "projectPath": "C:\\Users\\cca\\Desktop\\Examen1Derek\\WebApplication\\WebApplication.csproj",
-        "packagesPath": "C:\\Users\\cca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cca\\Desktop\\Examen1Derek\\WebApplication\\obj\\",
+        "projectPath": "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\WebApplication\\WebApplication.csproj",
+        "packagesPath": "C:\\Users\\Ususario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\WebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\cca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ususario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -239,14 +235,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\cca\\Desktop\\Examen1Derek\\BD\\BD.csproj": {
-                "projectPath": "C:\\Users\\cca\\Desktop\\Examen1Derek\\BD\\BD.csproj"
+              "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\BD\\BD.csproj": {
+                "projectPath": "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\BD\\BD.csproj"
               },
-              "C:\\Users\\cca\\Desktop\\Examen1Derek\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\cca\\Desktop\\Examen1Derek\\Entity\\Entity.csproj"
+              "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\Entity\\Entity.csproj"
               },
-              "C:\\Users\\cca\\Desktop\\Examen1Derek\\WBL\\WBL.csproj": {
-                "projectPath": "C:\\Users\\cca\\Desktop\\Examen1Derek\\WBL\\WBL.csproj"
+              "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\WBL\\WBL.csproj": {
+                "projectPath": "C:\\Users\\Ususario\\Pictures\\Progra 6 Derek\\Examen1\\Examen1Derek\\WBL\\WBL.csproj"
               }
             }
           }
@@ -284,7 +280,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,32 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [dbo].[Departamentos] (Tabla)
+       [dbo].[Puestos] (Tabla)
+       [dbo].[Titulos] (Tabla)
+       [dbo].[Departamento_Delete] (Procedimiento)
+       [dbo].[Departamento_Get] (Procedimiento)
+       [dbo].[Departamento_Insert] (Procedimiento)
+       [dbo].[Departamento_Update] (Procedimiento)
+       [dbo].[Puestos_Delete] (Procedimiento)
+       [dbo].[Puestos_Get] (Procedimiento)
+       [dbo].[Puestos_Insert] (Procedimiento)
+       [dbo].[Puestos_Update] (Procedimiento)
+       [dbo].[Titulos_Delete] (Procedimiento)
+       [dbo].[Titulos_Get] (Procedimiento)
+       [dbo].[Titulos_Insert] (Procedimiento)
+       [dbo].[Titulos_Update] (Procedimiento)
+
+** Acciones de compatibilidad
+
+Las bases de datos del proyecto y de destino tienen una configuración de intercalación diferente. Se pueden producir errores de implementación.
+

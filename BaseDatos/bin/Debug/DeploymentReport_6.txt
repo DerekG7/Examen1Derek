@@ -1,0 +1,18 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [dbo].[Titulos_Delete] (Procedimiento)
+       [dbo].[Titulos_Get] (Procedimiento)
+       [dbo].[Titulos_Insert] (Procedimiento)
+       [dbo].[Titulos_Update] (Procedimiento)
+
+** Acciones de compatibilidad

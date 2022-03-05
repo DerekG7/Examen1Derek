@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSchemaModel FileFormatVersion="1.2" SchemaVersion="2.9" DspName="Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider" CollationLcid="1033" CollationCaseSensitive="False" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+	<Header>
+		<CustomData Category="AnsiNulls">
+			<Metadata Name="AnsiNulls" Value="True" />
+		</CustomData>
+		<CustomData Category="QuotedIdentifier">
+			<Metadata Name="QuotedIdentifier" Value="True" />
+		</CustomData>
+		<CustomData Category="CompatibilityMode">
+			<Metadata Name="CompatibilityMode" Value="130" />
+		</CustomData>
+		<CustomData Category="Reference" Type="Assembly">
+			<Metadata Name="LogicalName" Value="BaseDatos.dll" />
+			<Metadata Name="FileName" Value="C:\USERS\CCA\DESKTOP\EXAMEN1DEREK\BASEDATOS\OBJ\DEBUG\BASEDATOS.DLL" />
+			<Metadata Name="AssemblyName" Value="BaseDatos" />
+			<Metadata Name="PermissionSet" Value="SAFE" />
+			<Metadata Name="Owner" Value="" />
+			<Metadata Name="GenerateSqlClrDdl" Value="True" />
+			<Metadata Name="IsVisible" Value="True" />
+			<Metadata Name="IsModelAware" Value="True" />
+			<Metadata Name="SkipCreationIfEmpty" Value="True" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Users\cca\Desktop\Examen1Derek\BaseDatos\obj\Debug\BaseDatos.pdb" />
+		</CustomData>
+		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
+	</Header>
+	<Model>
+		<Element Type="SqlDatabaseOptions">
+			<Property Name="Collation" Value="SQL_Latin1_General_CP1_CI_AS" />
+			<Property Name="IsAnsiNullDefaultOn" Value="True" />
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Property Name="IsAnsiWarningsOn" Value="True" />
+			<Property Name="IsArithAbortOn" Value="True" />
+			<Property Name="IsConcatNullYieldsNullOn" Value="True" />
+			<Property Name="IsTornPageProtectionOn" Value="False" />
+			<Property Name="IsFullTextEnabled" Value="True" />
+			<Property Name="PageVerifyMode" Value="3" />
+			<Property Name="DefaultLanguage" Value="" />
+			<Property Name="DefaultFullTextLanguage" Value="" />
+			<Property Name="QueryStoreStaleQueryThreshold" Value="367" />
+			<Relationship Name="DefaultFilegroup">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[PRIMARY]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlTable" Name="[dbo].[Institucion]">
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="Columns">
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Institucion].[Id_Institucion]">
+						<Property Name="IsNullable" Value="False" />
+						<Property Name="IsIdentity" Value="True" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+						<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="3" />
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Institucion].[Codigo]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="250" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Institucion].[Nombre]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="250" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Institucion].[Telefono]">
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="250" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSimpleColumn" Name="[dbo].[Institucion].[Estado]">
+						<Property Name="IsNullable" Value="False" />
+						<Relationship Name="TypeSpecifier">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bit]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DataCompressionOptions">
+				<Entry>
+					<Element Type="SqlDataCompressionOption">
+						<Property Name="CompressionLevel" Value="2" />
+						<Property Name="PartitionNumber" Value="1" />
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[Instituto_Delete]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+  BEGIN 
+  SET NOCOUNT ON
+
+    BEGIN TRANSACTION TRASA
+
+    BEGIN TRY
+     
+     DELETE FROM Institucion
+     WHERE
+          Id_Institucion=@Id_Institucion
+
+       COMMIT TRANSACTION TRASA
+
+          SELECT 0 AS CodeError, '' AS MsgError
+
+    END TRY
+
+    BEGIN CATCH
+          SELECT 
+                 ERROR_NUMBER() AS CodeError, 
+                 ERROR_MESSAGE() AS MsgError
+           ROLLBACK TRANSACTION TRASA    
+    END CATCH
+
+  END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[Institucion]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Institucion].[Id_Institucion]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Instituto_Delete].[@Id_Institucion]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[Instituto_Delete].[@Id_Institucion]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="506" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[Instituto_Delete]&#xA;@Id_Institucion INT&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[Instituto_Get]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+BEGIN
+  SET NOCOUNT ON
+
+SELECT 
+		Id_Institucion,
+		Codigo,
+		Nombre,
+		Telefono,
+		Estado
+FROM Institucion
+WHERE (@Id_Institucion IS NULL OR Id_Institucion=@Id_Institucion)
+
+END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[Institucion]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Institucion].[Id_Institucion]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Institucion].[Codigo]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Institucion].[Nombre]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Institucion].[Telefono]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Institucion].[Estado]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Instituto_Get].[@Id_Institucion]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[Instituto_Get].[@Id_Institucion]">
+						<Property Name="DefaultExpressionScript">
+							<Value><![CDATA[null]]></Value>
+						</Property>
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="248" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[Instituto_Get]&#xA;&#x9;@Id_Institucion INT= null&#xA;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[Instituto_Insert]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+  BEGIN 
+  SET NOCOUNT ON
+
+    BEGIN TRANSACTION TRASA
+
+    BEGIN TRY
+       INSERT INTO Institucion
+       ( Codigo,Nombre,Telefono, Estado)
+       VALUES
+       (@Codigo,@Nombre,@Telefono, @Estado)
+
+
+       COMMIT TRANSACTION TRASA
+
+          SELECT 0 AS CodeError, '' AS MsgError
+    END TRY
+
+    BEGIN CATCH
+          SELECT 
+                 ERROR_NUMBER() AS CodeError, 
+                 ERROR_MESSAGE() AS MsgError
+           ROLLBACK TRANSACTION TRASA    
+    END CATCH
+
+  END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[Institucion]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Institucion].[Codigo]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Institucion].[Nombre]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Institucion].[Telefono]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Institucion].[Estado]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Instituto_Insert].[@Codigo]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Instituto_Insert].[@Nombre]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Instituto_Insert].[@Telefono]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Instituto_Insert].[@Estado]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[Instituto_Insert].[@Codigo]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="250" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[Instituto_Insert].[@Nombre]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="250" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[Instituto_Insert].[@Telefono]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="250" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[Instituto_Insert].[@Estado]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bit]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="611" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[Instituto_Insert]&#xA;@Codigo VARCHAR(250),&#xA;@Nombre  VARCHAR(250),&#xA;@Telefono  VARCHAR(250),&#xA;@Estado BIT&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[Instituto_Update]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+  BEGIN 
+  SET NOCOUNT ON
+
+    BEGIN TRANSACTION TRASA
+
+    BEGIN TRY
+
+       UPDATE Institucion
+       SET
+       Codigo=@Codigo,
+       Nombre=@Nombre,
+       Telefono=@Telefono,
+       Estado=@Estado
+       WHERE 
+           Id_Institucion=@Id_Departamento
+
+       COMMIT TRANSACTION TRASA
+
+          SELECT 0 AS CodeError, '' AS MsgError
+    END TRY
+
+    BEGIN CATCH
+          SELECT 
+                 ERROR_NUMBER() AS CodeError, 
+                 ERROR_MESSAGE() AS MsgError
+           ROLLBACK TRANSACTION TRASA    
+    END CATCH
+
+  END]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[Institucion]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Institucion].[Codigo]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Instituto_Update].[@Codigo]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Institucion].[Nombre]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Instituto_Update].[@Nombre]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Institucion].[Telefono]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Instituto_Update].[@Telefono]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Institucion].[Estado]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Instituto_Update].[@Estado]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Institucion].[Id_Institucion]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Instituto_Update].[@Id_Departamento]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[Instituto_Update].[@Id_Departamento]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[Instituto_Update].[@Codigo]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="250" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[Instituto_Update].[@Nombre]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="250" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[Instituto_Update].[@Telefono]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="Length" Value="250" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[Instituto_Update].[@Estado]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[bit]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="729" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="create PROCEDURE [dbo].[Instituto_Update]&#xD;&#xA;@Id_Departamento int,&#xD;&#xA;@Codigo VARCHAR(250),&#xD;&#xA;@Nombre  VARCHAR(250),&#xD;&#xA;@Telefono  VARCHAR(250),&#xD;&#xA;@Estado BIT&#xD;&#xA;&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
+		<Element Type="SqlPrimaryKeyConstraint" Name="[dbo].[PK_Institucion]">
+			<Relationship Name="ColumnSpecifications">
+				<Entry>
+					<Element Type="SqlIndexedColumnSpecification">
+						<Relationship Name="Column">
+							<Entry>
+								<References Name="[dbo].[Institucion].[Id_Institucion]" />
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="DefiningTable">
+				<Entry>
+					<References Name="[dbo].[Institucion]" />
+				</Entry>
+			</Relationship>
+			<AttachedAnnotation Disambiguator="3" />
+		</Element>
+	</Model>
+</DataSchemaModel>

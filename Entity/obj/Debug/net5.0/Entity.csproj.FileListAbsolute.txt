@@ -22,15 +22,3 @@ C:\Users\cca\Desktop\Examen1Derek\Entity\obj\Debug\net5.0\Entity.csproj.CoreComp
 C:\Users\cca\Desktop\Examen1Derek\Entity\obj\Debug\net5.0\Entity.dll
 C:\Users\cca\Desktop\Examen1Derek\Entity\obj\Debug\net5.0\ref\Entity.dll
 C:\Users\cca\Desktop\Examen1Derek\Entity\obj\Debug\net5.0\Entity.pdb
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\Entity\bin\Debug\net5.0\Entity.deps.json
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\Entity\bin\Debug\net5.0\Entity.dll
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\Entity\bin\Debug\net5.0\ref\Entity.dll
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\Entity\bin\Debug\net5.0\Entity.pdb
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\Entity\obj\Debug\net5.0\Entity.csproj.AssemblyReference.cache
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\Entity\obj\Debug\net5.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\Entity\obj\Debug\net5.0\Entity.AssemblyInfoInputs.cache
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\Entity\obj\Debug\net5.0\Entity.AssemblyInfo.cs
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\Entity\obj\Debug\net5.0\Entity.csproj.CoreCompileInputs.cache
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\Entity\obj\Debug\net5.0\Entity.dll
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\Entity\obj\Debug\net5.0\ref\Entity.dll
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\Entity\obj\Debug\net5.0\Entity.pdb

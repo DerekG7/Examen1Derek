@@ -28,18 +28,3 @@ C:\Users\cca\Desktop\Examen1Derek\BD\obj\Debug\net5.0\BD.csproj.CopyComplete
 C:\Users\cca\Desktop\Examen1Derek\BD\obj\Debug\net5.0\BD.dll
 C:\Users\cca\Desktop\Examen1Derek\BD\obj\Debug\net5.0\ref\BD.dll
 C:\Users\cca\Desktop\Examen1Derek\BD\obj\Debug\net5.0\BD.pdb
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BD\bin\Debug\net5.0\BD.deps.json
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BD\bin\Debug\net5.0\BD.dll
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BD\bin\Debug\net5.0\ref\BD.dll
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BD\bin\Debug\net5.0\BD.pdb
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BD\bin\Debug\net5.0\Entity.dll
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BD\bin\Debug\net5.0\Entity.pdb
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BD\obj\Debug\net5.0\BD.csproj.AssemblyReference.cache
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BD\obj\Debug\net5.0\BD.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BD\obj\Debug\net5.0\BD.AssemblyInfoInputs.cache
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BD\obj\Debug\net5.0\BD.AssemblyInfo.cs
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BD\obj\Debug\net5.0\BD.csproj.CoreCompileInputs.cache
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BD\obj\Debug\net5.0\BD.csproj.CopyComplete
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BD\obj\Debug\net5.0\BD.dll
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BD\obj\Debug\net5.0\ref\BD.dll
-C:\Users\Ususario\Pictures\Progra 6 Derek\Examen1\Examen1Derek\BD\obj\Debug\net5.0\BD.pdb
